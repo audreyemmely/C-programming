@@ -15,7 +15,8 @@ scanf("%d %d", &iValorA, &iValorB);
 
 printf("Endereco de iResultado = %p\n", &iResultado);
 
-soma(iValorA, iValorB, &iResultado);
+soma(iValorA, iValorB, &iResultado); 
+/* está sendo passado o endereço de memória da variável, qualquer alteração estará sendo realizada na memória */
 
 printf("Soma: %d\n", iResultado);
 
